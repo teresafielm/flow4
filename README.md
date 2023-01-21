@@ -3,11 +3,11 @@ Repositorio con actividad de flow 4
 
 Esta actividad es para entender MQTT junto Node-RED
 
-Primero se se implementó el siguiente comando: mosquitto_sub -h localhost -p 1883 -q 0 -t codigoIot/G7/ejemplo
+Primero se se implementó el siguiente comando: mosquitto_sub -h localhost -p 1883 -q 0 -t codigoIot/G9/ejemplo
 
 Donde: -h es host -p es puerto -q es caliddad del servicio -t tema
 
-Posteriormente se abre otra terminal para ejecutar el siguiente comando: mosquitto_pub -h localhost -p 1883 -q 0 -t codigoIot/G7/ejemplo -m "Hola Teresa"
+Posteriormente se abre otra terminal para ejecutar el siguiente comando: mosquitto_pub -h localhost -p 1883 -q 0 -t codigoIot/G9/ejemplo -m "Hola Teresa"
 
 Ahora se elebora la conexión con el servidor publico mosquitto:
 
