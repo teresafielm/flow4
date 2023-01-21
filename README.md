@@ -7,11 +7,11 @@ Primero se se implementó el siguiente comando: mosquitto_sub -h localhost -p 18
 
 Donde: -h es host -p es puerto -q es caliddad del servicio -t tema
 
-Posteriormente se abre otra terminal para ejecutar el siguiente comando: mosquitto_pub -h localhost -p 1883 -q 0 -t codigoIot/G7/ejemplo -m "Hola zuriel"
+Posteriormente se abre otra terminal para ejecutar el siguiente comando: mosquitto_pub -h localhost -p 1883 -q 0 -t codigoIot/G7/ejemplo -m "Hola Teresa"
 
 Ahora se elebora la conexión con el servidor publico mosquitto:
 
-mosquitto_pub -h ip -p 1883 -q 0 -i zuriel-44 -t codigoIot/g7/mosquitto/msg -m "Zuriel Salvador"
+mosquitto_pub -h ip -p 1883 -q 0 -i teresa-44 -t codigoIot/g9/mosquitto/msg -m "Teresa Fiel"
 
 -i es tu ID -m "mensaje que quieras escribir"
 
